@@ -1,7 +1,7 @@
 # Site settings
-title: paul
+title: 𝓹𝓪𝓾𝓵 𝓫𝓸𝓾𝓲𝓰𝓾𝓮
 tagline: "paul bouigue est probablement votre pire étudiant"
-url: "https://pual.cool" # The base hostname & protocol for your site. Use it if you need absolute URL's
+url: "" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
 # Social
 socialimg: /img/social.jpg # be sure to change this image
