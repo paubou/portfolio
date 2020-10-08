@@ -1,0 +1,185 @@
+---
+---
+
+@font-face {
+    font-family: "Slanted";
+    src: url("../assets/fonts/Arial Slanted.woff2") format("woff2");
+}
+
+// Variables de style
+$background: white;
+$secondary-color: #464646;
+$error: #de3535;
+$success: #d5f5d7;
+
+$max-width: 960px;
+
+$font-size: 1.25rem;
+$font-family: Helvetica, sans-serif;
+$alt-font-family: monospace;
+$font-color: rgb(165, 5, 183);
+$line-height: 1.25rem;
+
+body {
+    background-color: $background;
+    padding: 0.0rem;
+    word-spacing:-0.1em;
+    color: $font-color;
+    font-family: $font-family;
+    // font-size: 1.169rem;
+    font-size: $font-size;
+    line-height:$line-height;
+}
+
+
+p{
+    margin: 0;
+    padding: 0;
+    text-indent: 2rem;
+    font-family: $font-family; 
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 1;
+    font-style: italic;
+}
+a:active {
+    opacity: 1;
+    color: #000;
+    font-style: italic;
+}
+
+i,
+em {
+    font-style: italic;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+sub,
+sup {
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    top: 0.3em;
+}
+
+sup {
+    top: -0.4em;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+img {
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Helvetica", Helvetica, sans-serif, "Helvetica Neue Regular", Icons /*!System*/;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    color: rgb(0, 0, 0);
+}
+
+h1 a {
+    color:rgb(126, 100, 131);
+}
+h1 a:hover {
+    color: rgb(16, 46, 255);
+}
+
+small a {
+    color: #fa5c34;
+    border-bottom-width: 0em;
+}
+
+img{
+    width: 100%;
+}
+
+
+    .wrapper {
+       display: grid;
+       grid-template-columns: repeat(12, 1fr);
+       grid-gap: 1.9rem;
+       grid-auto-rows: minmax(100px, auto);
+   }
+
+   .gauche{
+    grid-column: 1 /5;
+    grid-row: 1;
+    padding: 0.5rem;
+
+}
+
+#bienvenue{
+    text-align: center;
+    position: fixed;
+    width: 31%;
+    display: inline-text;
+
+}
+
+
+
+.milieu{
+    grid-column: 5 / 9;
+    grid-row: 1;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+
+#contact{
+     transform: skew(-15deg) rotate(-15deg);
+    font-family: "Slanted";
+    grid-column: 5 / 8;
+    grid-row: 1;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+
+.droite{
+ 
+    grid-column: 8 / 13;
+    grid-row: 1;
+    padding: 0.5rem;
+
+}
+
+    #liste{
+        grid-column: 8 / 13;
+    }
+
+
+// ------------------------- Page à Propos -------------------------
+
+.imagefond{
+    position: absolute;
+    left:50%; 
+    top:50%;
+    height: 45vh;
+    width: auto;
+    transform: translate(-50%, -50%);
+    -webkit-filter: blur(0.8rem); /* Safari 6.0 - 9.0 */
+    filter: blur(0.8rem);
+    z-index: -1000;
+}
+
