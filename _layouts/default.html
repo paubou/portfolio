@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!-- <!DOCTYPE html>
+[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
@@ -14,10 +14,71 @@
 		<![endif]-->
 				
 		{{ content }}
-		
+		  <div id="custom-cursor"></div>
+    	  <div id="custom-cursor-hover"></div>
 	</body>
 			<script>
 					RandomColor()
 			</script>
-</html>
+			
+			<!--<script type="text/javascript">
+				
+		let lastX, lastY, lastScrolled = 0;;
+		$(document).on('mousemove', function(e) {
+		  lastX = e.pageX - 30;
+		  lastY = e.pageY - 25;
+		  $('#custom-cursor').css({
+		    left: e.pageX - 30,
+		    top: e.pageY - 25,
+		    pointerEvents: 'none'
+
+		  });
+		  $('#custom-cursor-hover').css({
+		    left: e.pageX - 30,
+		    top: e.pageY - 25,
+		    pointerEvents: 'none'
+		  });
+		});
+
+
+		$(window).scroll(function(event) {
+		  if (lastScrolled != $(window)
+		    .scrollTop()) {
+		    lastY -= lastScrolled;
+		    lastScrolled = $(window)
+		      .scrollTop();
+		    lastY += lastScrolled;
+		  }
+		  $('#custom-cursor').css({
+		    left: lastX,
+		    top: lastY,
+		    pointerEvents: 'none'
+		  });
+       $('#custom-cursor-hover').css({
+		    left: lastX,
+		    top: lastY,
+		    pointerEvents: 'none'
+		  });
+		});
+
+		$(document).on('mousemove', function() {
+		 if ($('.liencolore:hover').length > 0) {
+
+		  $('#custom-cursor').css({
+		    opacity:0});
+
+		    $('#custom-cursor-hover').css({
+		    opacity:1});
+		}
+      else{ 
+		  $('#custom-cursor-hover').css({
+		    opacity:0}) ;
+		  
+		   $('#custom-cursor').css({
+		    opacity:1});
+		}
+		});
+
+		</script> -->
+		</html>
 

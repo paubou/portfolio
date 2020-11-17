@@ -7,7 +7,7 @@
 }
 
 // Variables de style
-$background: white;
+$background: #ffd3cf;
 $secondary-color: #464646;
 $error: #de3535;
 $success: #d5f5d7;
@@ -20,7 +20,40 @@ $alt-font-family: monospace;
 $font-color: rgb(165, 5, 183);
 $line-height: 1.25rem;
 
+#custom-cursor{
+    width: 230px;
+    height: 300px;
+    position: absolute;
+    background-size: 230px 300px;
+    background-image: url("/assets/curseur.png");
+    opacity: 0;
+}
+
+#custom-cursor-hover{
+    width: 230px;
+    height: 300px;
+    position: absolute;
+    background-size: 230px 300px;
+    background-image: url("/assets/curseur-hover.png");
+    opacity: 0;
+}
+
 body {
+  background-color: #ffd3cf; }
+
+    ::selection{
+        color: black;
+        background-color: black;
+    }
+
+html{
+          overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;  /* Firefox */
+}
+
+body {
+ 
     background-color: $background;
     padding: 0.0rem;
     word-spacing:-0.1em;
@@ -29,6 +62,8 @@ body {
     // font-size: 1.169rem;
     font-size: $font-size;
     line-height:$line-height;
+
+
 }
 
 
@@ -36,7 +71,8 @@ p{
     margin: 0;
     padding: 0;
     text-indent: 2rem;
-    font-family: $font-family; 
+    font-family: $font-family;
+    // filter: drop-shadow(0 0 0.25rem white);
 }
 
 a{
@@ -46,6 +82,7 @@ a{
 a:hover {
     opacity: 1;
     font-style: italic;
+    // cursor: url('/assets/curseur-pointer.png'), auto;
 }
 a:active {
     opacity: 1;
@@ -129,10 +166,14 @@ img{
 }
 
 #bienvenue{
+    top: 5rem;
+    transform: skew(-15deg) rotate(-15deg);
+    font-family: "Slanted";
     text-align: center;
     position: fixed;
-    width: 31%;
+    width: 28%;
     display: inline-text;
+    padding: 0 2rem 0 2rem;
 
 }
 
@@ -147,7 +188,7 @@ img{
 }
 
 #contact{
-     transform: skew(-15deg) rotate(-15deg);
+    transform: skew(-15deg) rotate(-15deg);
     font-family: "Slanted";
     grid-column: 5 / 8;
     grid-row: 1;
