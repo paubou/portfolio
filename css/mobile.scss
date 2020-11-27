@@ -1,127 +1,128 @@
 ---
 ---
-
-// Some Style Variables
-$primary-color: #36465f;
+// Variables de style
+$background: #ffd3cf;
 $secondary-color: #464646;
 $error: #de3535;
 $success: #d5f5d7;
 
 $max-width: 960px;
 
-// Breakpoints. Use these in your media queries.
-$babybear: 321px;
-$mamabear: 769px;
-$papabear: 1140px;
-$monsterbear: 1300px;
-
-$font-size: 1.5rem;
+$font-size: 1.25rem;
 $font-family: Helvetica, sans-serif;
 $alt-font-family: monospace;
 $font-color: rgb(165, 5, 183);
-$line-height: 1.5rem;
+$line-height: 1.25rem;
 
 
+body {
+	padding: 0.0rem;
+	word-spacing:-0.1em;
+	background-color: $background;
+	color: $font-color;
+	font-family: $font-family;
+	// font-size: 1.169rem;
+	font-size: $font-size;
+	line-height:$line-height;
+}
 
-    body {
-    	padding: 0.0rem;
-    	word-spacing:-0.1em;
-    	background-color: #fff;
-    	color: $font-color;
-    	font-family: $font-family;
-    	// font-size: 1.169rem;
-    	font-size: $font-size;
-    	line-height:$line-height;
-    }
 
-
-    p{
-    	margin: 0;
-    	padding: 0;
-    	text-indent: 2rem;
-    	font-family: $font-family; 
-    }
+p{
+	margin: 0;
+	padding: 0;
+	text-indent: 2rem;
+	font-family: $font-family; 
+}
 
 a{
 	text-decoration: none;
 }
-    a:hover {
-    	opacity: 1;
-    	font-style: italic;
-    }
-    a:active {
-    	opacity: 1;
-    	color: #000;
-    	font-style: italic;
-    }
+a:hover {
+	opacity: 1;
+	font-style: italic;
+}
+a:active {
+	opacity: 1;
+	color: #000;
+	font-style: italic;
+}
 
-    i,
-    em {
-    	font-style: italic;
-    }
+a#fete{
+	display: none;
+}
 
-    b,
-    strong {
-    	font-weight: bold;
-    }
+i,
+em {
+	font-style: italic;
+}
 
-    sub,
-    sup {
-    	position: relative;
-    	vertical-align: baseline;
-    }
+b,
+strong {
+	font-weight: bold;
+}
 
-    sub {
-    	top: 0.3em;
-    }
+sub,
+sup {
+	position: relative;
+	vertical-align: baseline;
+}
 
-    sup {
-    	top: -0.4em;
-    }
+sub {
+	top: 0.3em;
+}
 
-    s {
-    	text-decoration: line-through;
-    }
+sup {
+	top: -0.4em;
+}
 
-    img {
-    	border: 0;
-    	padding: 0;
-    }
+s {
+	text-decoration: line-through;
+}
 
-    h1 {
-    	font-family: "Helvetica", Helvetica, sans-serif, "Helvetica Neue Regular", Icons /*!System*/;
-    	font-style: normal;
-    	font-weight: 400;
-    	padding: 0;
-    	margin: 0;
-    	font-size: 1.5rem;
-    	line-height: 1.1;
-    	color: rgb(0, 0, 0);
-    }
+img {
+	border: 0;
+	padding:  0 0  0.5rem 0;
+}
 
-    h1 a {
-    	color:rgb(126, 100, 131);
-    }
-    	h1 a:hover {
-    		color: rgb(16, 46, 255);
-    	}
+h1 {
+	font-family: "Helvetica", Helvetica, sans-serif, "Helvetica Neue Regular", Icons /*!System*/;
+	font-style: normal;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	font-size: 1.5rem;
+	line-height: 1.1;
+	color: rgb(0, 0, 0);
+}
 
-    	small a {
-    		color: #fa5c34;
-    		border-bottom-width: 0em;
-    	}
+h1 a {
+	color:rgb(126, 100, 131);
+}
+h1 a:hover {
+	color: rgb(16, 46, 255);
+}
 
-    	img{
-    		width: 100%;
-    	}
+small a {
+	color: #fa5c34;
+	border-bottom-width: 0em;
+}
+
+img{
+	width: 100%;
+}
 
 
-#bienvenue{
-    width: 94vw;
+.gauche#bienvenue{
+	width: 95vw;
+	font-family: $font-family;
+	transform: skew(0) rotate(0);
+	top: 0.5rem;
+	padding: 0 0.5rem 0 0rem;
+	filter: drop-shadow(0 0 0.2rem $background) drop-shadow(0 0 0.5rem $background);
 }
 
 #liste{
-    position: inherit;
+	position: inherit;
 }
 
 
@@ -132,23 +133,32 @@ a{
 	grid-auto-rows: minmax(100px, auto);
 }
 .gauche{
-grid-column: 1 / 1;
-  grid-row: 1;
-  padding: 0.5rem;
+	grid-column: 1 / 1;
+	grid-row: 1;
+	padding: 0.5rem;
 
 }
 .milieu{
- grid-column: 1 / 1;
-  grid-row: 2;
-  padding: 0.5rem;
-  text-align: center;
+	grid-column: 1 / 1;
+	grid-row: 2;
+	padding: 0.5rem;
 
 }
-.droite{
- grid-column: 1 / 1;
-  grid-row: 3;
-  padding: 0.5rem;
 
+.milieu#contact{
+	grid-column: 1 / 1;
+	grid-row: 2;
+	text-align: center;
+}
+.droite{
+	grid-column: 1 / 1;
+
+
+}
+.droite#liste{
+	grid-row: 3;
+	padding: 0.5rem;
+	grid-column: 1 / 1;
 }
 
 /**
@@ -207,38 +217,55 @@ grid-column: 1 / 1;
  .mobile #texte-fixed {
  	position: initial; 
 
+ }
+
+
+ a#gauche1, a#droite1, a#gauche2, a#droite2 {
+ 	display: block;
+ }
+
+
+ #droite {
+ }
+
+
+ #gauche1 {
+
+
+ }
+
+ #droite1 {
+
+ }
+
+ #gauche2 {
+
+ }
+
+ #droite2 {
+
+
+ }
+
+// ------------------------- Descriptions --------------------------
+
+.description {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 0.5rem;
+	grid-auto-rows: minmax(auto, auto);
+	padding-bottom: 0.5rem;
+	font-size: 1rem;
+	line-height: 1rem;
 }
 
+.date{
+	grid-column: 1 / 2;
 
- 	a#gauche1, a#droite1, a#gauche2, a#droite2 {
- 		display: block;
- 	}
-
-
- 	.texte {
-
- 		background-color: #ff5e10;
- 	}
-
-    #droite {
-    }
-
-
-    #gauche1 {
-
-
-    }
-
-    #droite1 {
-
-    }
-
-    #gauche2 {
-
-    }
-
-    #droite2 {
-
-
-    }
-
+}
+.texte{
+	font-family: serif;
+	grid-column: 2 / 6;
+	text-indent: 5%;
+	color: black;
+}

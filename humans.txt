@@ -5,5 +5,5 @@
 
 # fabriqué avec
 
-    HTML5, CSS3, JQuery
-    HTML5 Boilerplate
+    HTML5, CSS3
+

@@ -2,15 +2,13 @@
 ---
 
 @font-face {
-    font-family: "Slanted";
-    src: url("../assets/fonts/Arial Slanted.woff2") format("woff2");
+	font-family: "Slanted";
+	src: url("../assets/fonts/Arial Slanted.woff2") format("woff2");
 }
 
 // Variables de style
 $background: #ffd3cf;
 $secondary-color: #464646;
-$error: #de3535;
-$success: #d5f5d7;
 
 $max-width: 960px;
 
@@ -21,206 +19,232 @@ $font-color: rgb(165, 5, 183);
 $line-height: 1.25rem;
 
 #custom-cursor{
-    width: 230px;
-    height: 300px;
-    position: absolute;
-    background-size: 230px 300px;
-    background-image: url("/assets/curseur.png");
-    opacity: 0;
+	width: 230px;
+	height: 300px;
+	position: absolute;
+	background-size: 230px 300px;
+	background-image: url("/assets/curseur.png");
+	opacity: 0;
 }
 
 #custom-cursor-hover{
-    width: 230px;
-    height: 300px;
-    position: absolute;
-    background-size: 230px 300px;
-    background-image: url("/assets/curseur-hover.png");
-    opacity: 0;
+	width: 230px;
+	height: 300px;
+	position: absolute;
+	background-size: 230px 300px;
+	background-image: url("/assets/curseur-hover.png");
+	opacity: 0;
 }
 
 body {
-  background-color: #ffd3cf; }
+	background-color: #ffd3cf; }
 
-    ::selection{
-        color: black;
-        background-color: black;
-    }
+	::selection{
+		color: black;
+		background-color: black;
+	}
 
-html{
-          overflow-y: scroll;
+	html{
+		overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
    scrollbar-width: none;  /* Firefox */
 }
 
 body {
- 
-    background-color: $background;
-    padding: 0.0rem;
-    word-spacing:-0.1em;
-    color: $font-color;
-    font-family: $font-family;
-    // font-size: 1.169rem;
-    font-size: $font-size;
-    line-height:$line-height;
+
+	background-color: $background;
+	padding: 0.0rem;
+	word-spacing:-0.1em;
+	color: $font-color;
+	font-family: $font-family;
+	// font-size: 1.169rem;
+	font-size: $font-size;
+	line-height:$line-height;
 
 
 }
 
 
 p{
-    margin: 0;
-    padding: 0;
-    text-indent: 2rem;
-    font-family: $font-family;
-    // filter: drop-shadow(0 0 0.25rem white);
+	margin: 0;
+	padding: 0;
+	text-indent: 2rem;
+	font-family: $font-family;
+	// filter: drop-shadow(0 0 0.25rem white);
 }
 
 a{
-    text-decoration: none;
+	text-decoration: none;
 }
 
 a:hover {
-    opacity: 1;
-    font-style: italic;
-    // cursor: url('/assets/curseur-pointer.png'), auto;
+	opacity: 1;
+	font-style: italic;
+	// cursor: url('/assets/curseur-pointer.png'), auto;
 }
 a:active {
-    opacity: 1;
-    color: #000;
-    font-style: italic;
+	opacity: 1;
+	color: #000;
+	font-style: italic;
+}
+
+a#fete{
+	position: fixed;
+	mix-blend-mode: difference;
+	color: white;
 }
 
 i,
 em {
-    font-style: italic;
+	font-style: italic;
 }
 
 b,
 strong {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 sub,
 sup {
-    position: relative;
-    vertical-align: baseline;
+	position: relative;
+	vertical-align: baseline;
 }
 
 sub {
-    top: 0.3em;
+	top: 0.3em;
 }
 
 sup {
-    top: -0.4em;
+	top: -0.4em;
 }
 
 s {
-    text-decoration: line-through;
+	text-decoration: line-through;
 }
 
 img {
-    border: 0;
-    padding: 0;
+	border: 0;
+	padding:  0 0  0.5rem 0;
 }
 
 h1 {
-    font-family: "Helvetica", Helvetica, sans-serif, "Helvetica Neue Regular", Icons /*!System*/;
-    font-style: normal;
-    font-weight: 400;
-    padding: 0;
-    margin: 0;
-    font-size: 1.5rem;
-    line-height: 1.1;
-    color: rgb(0, 0, 0);
+	font-family: "Helvetica", Helvetica, sans-serif, "Helvetica Neue Regular", Icons /*!System*/;
+	font-style: normal;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	font-size: 1.5rem;
+	line-height: 1.1;
+	color: rgb(0, 0, 0);
 }
 
 h1 a {
-    color:rgb(126, 100, 131);
+	color:rgb(126, 100, 131);
 }
 h1 a:hover {
-    color: rgb(16, 46, 255);
+	color: rgb(16, 46, 255);
 }
 
 small a {
-    color: #fa5c34;
-    border-bottom-width: 0em;
+	color: #fa5c34;
+	border-bottom-width: 0em;
 }
 
 img{
-    width: 100%;
+	width: 100%;
 }
 
 
-    .wrapper {
-       display: grid;
-       grid-template-columns: repeat(12, 1fr);
-       grid-gap: 1.9rem;
-       grid-auto-rows: minmax(100px, auto);
-   }
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 1.9rem;
+	grid-auto-rows: minmax(100px, auto);
+}
 
-   .gauche{
-    grid-column: 1 /5;
-    grid-row: 1;
-    padding: 0.5rem;
+.gauche{
+	grid-column: 1 /5;
+	grid-row: 1;
+	padding: 0.5rem;
 
 }
 
-#bienvenue{
-    top: 5rem;
-    transform: skew(-15deg) rotate(-15deg);
-    font-family: "Slanted";
-    text-align: center;
-    position: fixed;
-    width: 28%;
-    display: inline-text;
-    padding: 0 2rem 0 2rem;
+.gauche#bienvenue{
+	text-align: center;
+	position: fixed;
+	width: 28%;
+	display: inline-text;
+	padding: 0.5rem 2rem 0 2rem;
 
 }
-
 
 
 .milieu{
-    grid-column: 5 / 9;
-    grid-row: 1;
-    padding: 0.5rem;
-    text-align: center;
+	grid-column: 5 / 10;
+	grid-row: 1;
+	padding: 0.5rem;
 
 }
 
-#contact{
-    transform: skew(-15deg) rotate(-15deg);
-    font-family: "Slanted";
-    grid-column: 5 / 8;
-    grid-row: 1;
-    padding: 0.5rem;
-    text-align: center;
+.milieu#images{
+
+}
+
+
+.milieu#contact{
+	mix-blend-mode: difference;
+	transform: skew(-15deg) rotate(-15deg);
+	font-family: "Slanted";
+	grid-column: 5 / 8;
+	grid-row: 1;
+	padding: 0.5rem;
+	text-align: center;
 
 }
 
 .droite{
- 
-    grid-column: 8 / 13;
-    grid-row: 1;
-    padding: 0.5rem;
+
+	grid-column: 8 / 13;
+	grid-row: 1;
+	padding: 0.5rem;
 
 }
 
-    #liste{
-        grid-column: 8 / 13;
-    }
+.droite#liste{
+	grid-column: 8 / 13;
+}
 
 
 // ------------------------- Page à Propos -------------------------
 
 .imagefond{
-    position: absolute;
-    left:50%; 
-    top:50%;
-    height: 45vh;
-    width: auto;
-    transform: translate(-50%, -50%);
-    -webkit-filter: blur(0.8rem); /* Safari 6.0 - 9.0 */
-    filter: blur(0.8rem);
-    z-index: -1000;
+	position: absolute;
+	left:50%; 
+	top:50%;
+	height: 45vh;
+	width: auto;
+	transform: translate(-50%, -50%);
+	-webkit-filter: blur(0.8rem); /* Safari 6.0 - 9.0 */
+	filter: blur(0.8rem);
+	z-index: -1000;
 }
 
+// ------------------------- Descriptions --------------------------
+
+.description {
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+	grid-gap: 0.5rem;
+	grid-auto-rows: minmax(auto, auto);
+	padding-bottom: 0.5rem;
+}
+
+.date{
+	grid-column: 1 / 3;
+
+}
+.texte{
+	grid-column: 3 / 10;
+	text-indent: 5%;
+	color: black;
+}

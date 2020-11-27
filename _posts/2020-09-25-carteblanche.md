@@ -1,13 +1,8 @@
 ---
 layout: posts
 img: "/assets/1.jpg"
-title: peintures de sortie
+title: comme si plus loin, les livres avaient des pages en forme de pierres
 categories: accueil
+exerpt : film
+annee : 2020
 ---
-
-# Just owo
-
-**Hello world**, this is my first Jekyll blog post.
-
-I hope you like it!
-![My helpful screenshot](/img/pret_97.jpg)

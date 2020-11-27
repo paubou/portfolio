@@ -11,9 +11,20 @@ fulltitle: "paul bouigue est probablement votre pire étudiant"
 	<div class="gauche" id="bienvenue">
 		<span>Pour arriver jusqu’au perron de la maison, il faut marcher sur un chemin de pierre presque entièrement recouvert par de l’herbe. La boîte aux lettres se situe au début du chemin, l’étiquette se détache à cause de la pluie et du temps. Par la fenêtre, on aperçoit une </span> <a href="a-propos" class="liencolore"> silhouette</a> <span> et on entend même la télévision chanter.</span>
 	</div>
-	<div class="milieu">
+	<div class="milieu" id="images">
+			<a id="fete" href="mailto:paul.bouigue@gmail.com" style="padding-left: 0.5rem; ">
+				paul.bouigue@gmail.com<br>
+			</a>
 		{% for post in site.categories.accueil %}
 		<img src="{{ post.img }}">
-		<!-- <a href="{{ post.url }}" class="liencolore">{{ post.title }}</a> -->
+		<div class= "description">
+			<div class="date">{{ post.annee }}</div>
+			<div class="texte">⸺ {{ post.exerpt }}</div>
+		</div>
 		{% endfor %}
 	</div>
+	<div class="droite">
+		<a href="a-propos" id="fete">cap au pire :</a>
+	</div>
+
+</div>
