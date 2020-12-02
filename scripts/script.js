@@ -1,3 +1,4 @@
+let id = "";
 
 function nextLetter(ch) {
   if (!ch.match(/[a-z]/i)) return ch;
@@ -6,7 +7,7 @@ function nextLetter(ch) {
   return String.fromCharCode(ch.charCodeAt(0) + 1);
 }
 $(document).ready(function(){
-  $('.gauche#bienvenue span, .gauche#propos p, .milieu a, .droite a').each(function() {
+  $('.gauche#bienvenue span, .gauche#propos p, .milieu#contact a, .droite a').each(function() {
     var letters = $(this).text();
     var nHTML = '';
     for(var letter of letters) {
@@ -15,8 +16,13 @@ $(document).ready(function(){
     $(this).html(nHTML);
     $(".x").hover(function(e) {
       if (e.type === "mouseenter") $(this).text(nextLetter($(this).text()));
+
+
+
     });
   })
+
+
 });
 
 function RandomColor() {
@@ -68,5 +74,23 @@ function SetLinks() {
 SetLinks()
 }
 
+$(document).on("click", ".milieu#contact a", function() { 
+
+ let id = $(this).attr('id');
+ $(".alphabet img").css({"opacity":"0"});
+ $("#i" + id).css({"opacity" : "1", "z-index":"10"});
+ $(".alphabet").css({"z-index":"10"});
+ $("#" + id).css({"pointer-events": "none", "color": "#5ace18"});
+ $(".alphabet").css({"opacity" : "1"});
+ $('.milieu#contact').append('<div class="close">fin</div>'); 
+ $('.close').next().remove(); 
 
 
+});
+
+$(document).on("click", ".close", function() { 
+  $(".alphabet img").css({"opacity":"0"});
+ $(".alphabet").css({"z-index":"-10"});
+ $('.close').remove();
+
+});

@@ -38,8 +38,8 @@ $line-height: 1.25rem;
 
 
 ::selection{
-	color: black;
-	background-color: black;
+	color: lightgrey;
+	background-color: lightgrey;
 }
 
 html{
@@ -242,4 +242,35 @@ img{
 	grid-column: 3 / 10;
 	text-indent: 5%;
 	color: black;
+}
+
+// --------------------- Devant les textes ------------------------
+
+
+.alphabet{
+	top: 0.5rem;
+	left: 0.5rem;
+	position: fixed;
+	width: 33%;
+	z-index: -10;
+}
+
+#ia, 
+#ib,
+#ic,
+#id,
+#ie,
+#if{
+	z-index: -10;
+	position: absolute;
+	opacity: 0;
+}
+
+#a, 
+#b,
+#c,
+#d,
+#e,
+#f{
+cursor: pointer;
 }
