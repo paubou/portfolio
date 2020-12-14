@@ -15,25 +15,6 @@ $alt-font-family: monospace;
 $font-color: rgb(165, 5, 183);
 $line-height: 1.25rem;
 
-#custom-cursor{
-	width: 230px;
-	height: 300px;
-	position: absolute;
-	background-size: 230px 300px;
-	background-image: url("/assets/curseur.png");
-	opacity: 0;
-}
-
-#custom-cursor-hover{
-	width: 230px;
-	height: 300px;
-	position: absolute;
-	background-size: 230px 300px;
-	background-image: url("/assets/curseur-hover.png");
-	opacity: 0;
-}
-
-
 ::selection{
 	color: lightgrey;
 	background-color: lightgrey;
@@ -54,8 +35,6 @@ body {
 	// font-size: 1.169rem;
 	font-size: $font-size;
 	line-height:$line-height;
-
-
 }
 
 
@@ -80,8 +59,8 @@ a{
 a:hover {
 	opacity: 1;
 	font-style: italic;
-	// cursor: url('/assets/curseur-pointer.png'), auto;
 }
+
 a:active {
 	opacity: 1;
 	color: #000;
@@ -181,21 +160,13 @@ img{
 	width: 28%;
 	display: inline-text;
 	padding: 0.5rem 2rem 0 2rem;
-
 }
-
 
 .milieu{
 	grid-column: 5 / 10;
 	grid-row: 1;
 	padding: 0.5rem;
-
 }
-
-.milieu#images{
-
-}
-
 
 .milieu#contact{
 	mix-blend-mode: difference;
@@ -205,7 +176,6 @@ img{
 	grid-row: 1;
 	padding: 0.5rem;
 	text-align: center;
-
 }
 
 .droite{
@@ -213,7 +183,6 @@ img{
 	grid-row: 1;
 	padding: 0.5rem;
 	height: 3vh;
-
 }
 
 .droite#liste{
