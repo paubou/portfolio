@@ -9,9 +9,6 @@
 // Variables de style
 $background: #ffd3cf;
 $secondary-color: #464646;
-
-$max-width: 960px;
-
 $font-size: 1.25rem;
 $font-family: Helvetica, sans-serif;
 $alt-font-family: monospace;
@@ -67,7 +64,13 @@ p{
 	padding: 0;
 	text-indent: 2em;
 	font-family: $font-family;
+	margin-bottom: 2vh;
 	// filter: drop-shadow(0 0 0.25rem white);
+}
+
+.droite p {
+	text-indent: 0;
+	margin-bottom: 0vh;
 }
 
 a{
@@ -89,6 +92,16 @@ a#fete{
 	position: fixed;
 	mix-blend-mode: difference;
 	color: white;
+}
+
+img#papillon{
+	pointer-events: none;
+	position: fixed;
+	width: 20%;
+}
+
+.alphabet a{
+	color: $font-color;
 }
 
 i,
@@ -196,10 +209,10 @@ img{
 }
 
 .droite{
-
 	grid-column: 8 / 13;
 	grid-row: 1;
 	padding: 0.5rem;
+	height: 3vh;
 
 }
 
@@ -273,5 +286,5 @@ img{
 #d,
 #e,
 #f{
-cursor: pointer;
+	cursor: pointer;
 }
