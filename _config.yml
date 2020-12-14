@@ -1,12 +1,11 @@
 # Site settings
 title: 𝓹𝓪𝓾𝓵 𝓫𝓸𝓾𝓲𝓰𝓾𝓮
 tagline: "paul bouigue est probablement votre pire étudiant"
-url: "pual.cool" # The base hostname & protocol for your site. Use it if you need absolute URL's
+url: "pual.cool"
 
 # Social
 instagram: https://instagram.com/smexypual
 vimeo: https://vimeo.com/pbouigue
 mail: paul.bouigue@gmail.com
-#sass:
-#    style: compressed
+
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
