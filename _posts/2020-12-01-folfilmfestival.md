@@ -3,7 +3,7 @@ layout: posts
 img: "/assets/folfilm.png"
 title: folfilmfestival
 categories: accueil
-excerpt: site web pour fol film festival avec Timothée
+excerpt: dérouler la bobine avec Timothée, site web pour fol film festival
 link: https://folfilmfestival.com
 annee: 2020
 ---
