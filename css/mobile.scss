@@ -32,6 +32,7 @@ p{
 	padding: 0;
 	text-indent: 2rem;
 	font-family: $font-family; 
+	margin-bottom: 2vh;
 }
 
 a{
@@ -224,28 +225,11 @@ img{
  	display: block;
  }
 
-
- #droite {
- }
-
-
- #gauche1 {
-
-
- }
-
- #droite1 {
-
- }
-
- #gauche2 {
-
- }
-
- #droite2 {
-
-
- }
+img#papillon{
+	pointer-events: none;
+	position: fixed;
+	width: 100%;
+}
 
 // ------------------------- Descriptions --------------------------
 
@@ -268,4 +252,14 @@ img{
 	grid-column: 2 / 6;
 	text-indent: 5%;
 	color: black;
+}
+
+.alphabet{
+	top: 0.5rem;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	width: 70%;
+	z-index: -100;
+	opacity: 0;
 }
