@@ -8,16 +8,19 @@
 
 // Variables de style
 $background: #ffd3cf;
-$secondary-color: #464646;
 $font-size: 1.25rem;
 $font-family: Helvetica, sans-serif;
 $alt-font-family: monospace;
-$font-color: rgb(165, 5, 183);
 $line-height: 1.25rem;
 
+// couleurs
+$font-color: rgb(165, 5, 183);
+$secondary-color: #464646;
+$selection: #2d0103;
+
 ::selection{
-	color: lightgrey;
-	background-color: lightgrey;
+	color: $selection;
+	background-color: $selection;
 }
 
 html{
