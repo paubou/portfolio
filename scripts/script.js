@@ -25,10 +25,9 @@ function RandomColor() {
 
 	var nuitjour = new Date();
 	var time = nuitjour.getHours();
-	console.log(time);
 
-	if (time > 8 && time < 19) {
-		console.log("journée");
+	if (time > 8 && time < 20) {
+		console.log("il est " + time + "h, " + "c'est la journée");
 		var colors = {
 			"#979797": true, //gris
 			"#ff1e00": true, //orange
@@ -37,13 +36,20 @@ function RandomColor() {
 			"#5213c5": true //violet
 		}
 	} else{
-		console.log("la nuit");
+		console.log("il est " + time + "h, " + "c'est la nuit");
+		document.documentElement.style.setProperty("--background-color", "#472c2a");
+		document.documentElement.style.setProperty("--font-color", "#ec79f8");
+		document.documentElement.style.setProperty("--selection", "green");
+		document.documentElement.style.setProperty("--shadow", "white");
+		document.documentElement.style.setProperty("--alt-text-color", "white");
+		$("#contact.milieu").css({"mix-blend-mode": "exclusion"})
+
 		var colors = {
-			"#979797": true, //gris
-			"#ff1e00": true, //orange
-			"#305b3f": true, //vert
-			"#99733A": true, //or
-			"#5213c5": true //violet
+			"white": true, // blanc
+			"#6363FF": true, //bleu saturé
+			 "#FFDB0F": true, //jaune
+			 "#728C97": true, //bleu terne
+			 "#FF751F": true //orange
 		}
 	}
 

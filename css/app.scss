@@ -7,20 +7,27 @@
 }
 
 // Variables de style
-$background: #ffd3cf;
 $font-size: 1.25rem;
 $font-family: Helvetica, sans-serif;
 $alt-font-family: monospace;
 $line-height: 1.25rem;
 
 // couleurs
+$background: #ffd3cf;
 $font-color: rgb(165, 5, 183);
-$secondary-color: #464646;
 $selection: #2d0103;
 
+:root{
+	--background-color: #ffd3cf;
+	--font-color: rgb(165, 5, 183);
+	--selection: #2d0103;
+	--shadow: white;
+	--alt-text-color : black;
+}
+
 ::selection{
-	color: $selection;
-	background-color: $selection;
+	color: var(--selection);
+	background-color: var(--selection);
 }
 
 html{
@@ -30,10 +37,10 @@ html{
 }
 
 body {
-	background-color: $background;
+	background-color: var(--background-color);
 	padding: 0.0rem;
 	word-spacing:-0.1rem;
-	color: $font-color;
+	color: var(--font-color);
 	font-family: $font-family;
 	// font-size: 1.169rem;
 	font-size: $font-size;
@@ -65,7 +72,7 @@ a:hover {
 }
 
 a:active {
-	opacity: 1;
+	opacity: 0.5;
 	color: #000;
 	font-style: italic;
 }
@@ -223,7 +230,7 @@ img{
 .texte{
 	grid-column: 3 / 10;
 	text-indent: 5%;
-	color: black;
+	color: var(--alt-text-color);
 }
 
 // --------------------- Devant les textes ------------------------

@@ -1,31 +1,11 @@
 ---
 ---
-// Variables de style
-$background: #ffd3cf;
-$secondary-color: #464646;
-$error: #de3535;
-$success: #d5f5d7;
-
-$max-width: 960px;
-
 $font-size: 1.25rem;
 $font-family: Helvetica, sans-serif;
 $alt-font-family: monospace;
-$font-color: rgb(165, 5, 183);
 $line-height: 1.25rem;
 
-
-body {
-	padding: 0.0rem;
-	word-spacing:-0.1em;
-	background-color: $background;
-	color: $font-color;
-	font-family: $font-family;
-	// font-size: 1.169rem;
-	font-size: $font-size;
-	line-height:$line-height;
-}
-
+:root{}
 
 p{
 	margin: 0;
@@ -38,13 +18,9 @@ p{
 a{
 	text-decoration: none;
 }
+
 a:hover {
 	opacity: 1;
-	font-style: italic;
-}
-a:active {
-	opacity: 1;
-	color: #000;
 	font-style: italic;
 }
 
@@ -120,7 +96,7 @@ img{
 	transform: skew(0) rotate(0);
 	top: 0.5rem;
 	padding: 0 0.5rem 0 0rem;
-	filter: drop-shadow(0 0 0.2rem $background) drop-shadow(0 0 0.5rem $background);
+	filter: drop-shadow(0 0 0.2rem var(--shadow)) drop-shadow(0 0 0.5rem var(--shadow));
 }
 
 #liste{
@@ -226,11 +202,11 @@ img{
  	display: block;
  }
 
-img#papillon{
-	pointer-events: none;
-	position: fixed;
-	width: 100%;
-}
+ img#papillon{
+ 	pointer-events: none;
+ 	position: fixed;
+ 	width: 100%;
+ }
 
 // ------------------------- Descriptions --------------------------
 
