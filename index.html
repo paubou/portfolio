@@ -3,9 +3,6 @@ layout: default
 title: "accueil"
 fulltitle: "paul bouigue est probablement votre pire étudiant" 
 ---
-<!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
-<!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
-
 <div class="wrapper">
 	<div class="gauche" id="bienvenue">
 		<span>Pour arriver jusqu’au perron de la maison, il faut marcher sur un chemin de pierre presque entièrement recouvert par de l’herbe. La boîte aux lettres se situe au début du chemin, l’étiquette se détache à cause de la pluie et du temps. Par la fenêtre, on aperçoit une </span> <a href="a-propos" class="liencolore"> silhouette</a> <span> et on entend même la télévision chanter.</span>
@@ -16,13 +13,13 @@ fulltitle: "paul bouigue est probablement votre pire étudiant"
 		{% for post in site.categories.accueil %}
 		{% if post.link %} 
 		<a href="{{post.link}}" target="_blank">
-			<img loading="lazy" src="{{post.img}}" title="{{post.title}}" alt="{{post.title}}">
+			<img loading="lazy" src="{{post.img}}" title="{{post.title}}" alt="paul bouigue, {{post.title}}">
 		</a>
 		{% else %}
-		<img loading="lazy" src="{{post.img}}" title="{{post.title}}" alt="{{post.title}}">
+		<img loading="lazy" src="{{post.img}}" title="{{post.title}}" alt="paul bouigue, {{post.title}}">
 		{% endif %}
 		<div class= "description">
-			<div class="date">{{post.annee}}</div>
+			<div class="date">{{post.year}}</div>
 			<div class="texte">⸺ {{post.excerpt}}</div>
 		</div>
 		{% endfor %}

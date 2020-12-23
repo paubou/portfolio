@@ -29,11 +29,11 @@ function RandomColor() {
 	if (time > 8 && time < 20) {
 		console.log("il est " + time + "h, " + "c'est la journée");
 		var colors = {
-			"#979797": true, //gris
-			"#ff1e00": true, //orange
-			"#305b3f": true, //vert
-			"#99733A": true, //or
-			"#5213c5": true //violet
+			"#979797": true, 
+			"#ff1e00": true, 
+			"#305b3f": true, 
+			"#99733A": true, 
+			"#5213c5": true 
 		}
 	} else{
 		console.log("il est " + time + "h, " + "c'est la nuit");
@@ -45,11 +45,11 @@ function RandomColor() {
 		$("#contact.milieu").css({"mix-blend-mode": "exclusion"})
 
 		var colors = {
-			"white": true, // blanc
-			"#6363FF": true, //bleu saturé
-			 "#FFDB0F": true, //jaune
-			 "#728C97": true, //bleu terne
-			 "#FF751F": true //orange
+			"white": true,
+			"#6363FF": true, 
+			"#FFDB0F": true, 
+			"#728C97": true, 
+			"#FF751F": true 
 		}
 	}
 
