@@ -1,6 +1,5 @@
 ---
 ---
-
 @font-face {
 	font-family: "Slanted";
 	src: url("../assets/fonts/Arial Slanted.woff2") format("woff2");
@@ -19,7 +18,7 @@ $selection: #2d0103;
 
 :root{
 	--background-color: #ffd3cf;
-	--font-color: rgb(165, 5, 183);
+	--font-color: rgb(165, 5, 18); /*rgb(165, 5, 183)*/
 	--selection: #2d0103;
 	--shadow: white;
 	--alt-text-color : black;
@@ -36,7 +35,7 @@ html{
 	scrollbar-width: none;  /* Firefox */
 }
 
-body {
+body { 
 	background-color: var(--background-color);
 	padding: 0.0rem;
 	word-spacing:-0.1rem;
@@ -158,6 +157,7 @@ img{
 	grid-column: 1 /5;
 	grid-row: 1;
 	padding: 0.5rem;
+	text-align-last: center;
 
 }
 
@@ -170,7 +170,7 @@ img{
 }
 
 .milieu{
-	grid-column: 5 / 10;
+	grid-column: 5 / 11;
 	grid-row: 1;
 	padding: 0.5rem;
 }
@@ -230,7 +230,7 @@ img{
 .texte{
 	grid-column: 3 / 10;
 	text-indent: 5%;
-	color: var(--alt-text-color);
+	color      : var(--alt-text-color);
 }
 
 // --------------------- Devant les textes ------------------------
