@@ -8,11 +8,11 @@ fulltitle: "paul bouigue est probablement votre pire étudiant"
 		<span>Pour arriver jusqu’au perron de la maison, il faut marcher sur un chemin de pierre presque entièrement recouvert par de l’herbe. La boîte aux lettres se situe au début du chemin, l’étiquette se détache à cause de la pluie et du temps. Par la fenêtre, on aperçoit une </span> <a href="a-propos" class="liencolore"> silhouette</a> <span> et on entend même la télévision chanter.</span>
 	</div>
 	<div class="milieu" id="images">
-		<img id="papillon" src="assets/papillon livre.png">
+		<img id="papillon" src="assets/papillon livre.png" alt="paul bouigue bat des ailes">
 
 		{% for post in site.categories.accueil %}
 		{% if post.link %} 
-		<a href="{{post.link}}" target="_blank">
+		<a rel="noopener" href="{{post.link}}" target="_blank">
 			<img loading="lazy" src="{{post.img}}" title="{{post.title}}" alt="paul bouigue, {{post.title}}">
 		</a>
 		{% else %}
