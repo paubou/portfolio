@@ -14,4 +14,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+timezone: Europe/Paris
+
+
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
