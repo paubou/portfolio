@@ -13,10 +13,10 @@ fulltitle: "paul bouigue est probablement votre pire étudiant"
 		{% for post in site.categories.accueil %}
 		{% if post.link %} 
 		<a rel="noopener" href="{{post.link}}" target="_blank">
-			<img loading="lazy" src="{{post.img}}" title="{{post.title}}" alt="paul bouigue, {{post.title}}">
+			<img loading="lazy" src="{{post.image}}" title="{{post.title}}" alt="paul bouigue, {{post.title}}">
 		</a>
 		{% else %}
-		<img loading="lazy" src="{{post.img}}" title="{{post.title}}" alt="paul bouigue, {{post.title}}">
+		<img loading="lazy" src="{{post.image}}" title="{{post.title}}" alt="paul bouigue, {{post.title}}">
 		{% endif %}
 		<div class= "description">
 			<div class="date">{{post.year}}</div>
