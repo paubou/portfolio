@@ -9,4 +9,9 @@ instagram: https://instagram.com/smexypual
 vimeo: https://vimeo.com/pbouigue
 mail: paul.bouigue@gmail.com
 
+# plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
