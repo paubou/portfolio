@@ -12,7 +12,13 @@ mail: paul.bouigue@gmail.com
 # plugins
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
+
+sitemap:
+  lastmod: 2020-12-24
+  priority: 0.7
+  changefreq: 'monthly'
+  exclude: 'yes'
+
 
 timezone: Europe/Paris
 
