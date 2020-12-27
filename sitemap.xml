@@ -9,10 +9,13 @@ exclude: 'yes'
   {% unless post.published == false %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
-    <image:image>
-      <image:loc>{{ site.url }}{{ post.image }}</image:loc>
+    
+    {% for image in post.images %}
+    <image:image> 
+      <image:loc>{{ site.url }}{{ image }}</image:loc>
       <image:caption>{{ post.title }}</image:caption>
     </image:image>
+    {% endfor %}
     {% if post.sitemap.lastmod %}
     <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
     {% elsif post.date %}

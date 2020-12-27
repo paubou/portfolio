@@ -7,7 +7,39 @@ function nextLetter(ch) {
 	return String.fromCharCode(ch.charCodeAt(0) + 1);
 }
 
+
 $(document).ready(function(){
+	var mySwiper = new Swiper('.swiper-container', {
+ 		 // Optional parameters
+ 		 loop: true,
+ 		 watchOverflow: true,
+ 		 slidesPerView: 'auto',
+ 		 spaceBetween: 1,
+ 		 speed: 0,
+ 		 slidesPerColumnFill: 'column',
+ 		 touchRatio: 0,
+ 		 autoHeight: true,
+
+
+ 		 pagination: {
+ 		 	el: '.swiper-pagination',
+ 		 	type: 'fraction',
+ 		 },
+
+ 		 navigation: {
+ 		 	nextEl: '.swiper-button-next',
+ 		 	prevEl: '.swiper-button-prev',
+ 		 },
+
+ 		 keyboard: {
+ 		 	enabled: true,
+ 		 	onlyInViewport: true,
+ 		 },
+
+
+
+ 		})
+
 	$('.gauche#bienvenue span, .gauche#propos p, .milieu#contact a, .droite a').each(function() {
 		var letters = $(this).text();
 		var nHTML = '';
