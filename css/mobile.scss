@@ -88,7 +88,7 @@ img {
 
 
 #liste {
- position:inherit
+ position:inherit;
 }
 
 .wrapper {
@@ -110,6 +110,7 @@ img {
  transform:skew(0) rotate(0);
  top:0.5rem;
  padding:0 0.5rem 0 0rem;
+ z-index: 100;
  filter:drop-shadow(0 0 0.2rem var(--shadow)) drop-shadow(0 0 0.5rem var(--shadow))
 }
 
@@ -171,7 +172,7 @@ img#papillon {
  font-family:serif;
  grid-column:2 / 6;
  text-indent:5%;
- color: var(--shadow);
+ color: var(--alt-text-color);
 }
 
 .alphabet {
