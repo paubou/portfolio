@@ -7,6 +7,6 @@ images:
 - "/assets/folfilm.png"
 ---
 
-⸺ dérouler la bobine avec Timothée, site web pour [fol film festival][1]
+⸺ Dérouler la longue bobine avec Timothée, site web pour Fol Film Festival pour [Yves Bartlett][2]
 
-[1]: https://
+[2]: https://yvesbartlett.com/

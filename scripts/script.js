@@ -9,6 +9,13 @@ function nextLetter(ch) {
 
 
 $(document).ready(function(){
+
+		//open in a new tab markdown links
+	$(document.links).filter(function() {
+		return this.hostname != window.location.hostname;
+	}).attr('target', '_blank');
+
+
 	var mySwiper = new Swiper('.swiper-container', {
  		 // Optional parameters
  		 loop: true,
