@@ -9,7 +9,7 @@ fulltitle: "paul bouigue est probablement votre pire étudiant"
 	</div>
 	<div class="milieu" id="images">
 
-		<!-- <img id="papillon" src="assets/papillon livre.png" alt="paul bouigue bat des ailes"> -->
+		<img id="papillon" src="assets/tache.png" alt="paul bouigue bat des ailes"> 
 
 		{% for post in site.categories.accueil %}
 		<div class="swiper-container">
@@ -26,13 +26,12 @@ fulltitle: "paul bouigue est probablement votre pire étudiant"
 			<div class="date">{{post.year}}</div>
 			<div class="texte"> {{post.content}}</div>
 		</div>
-		<script>
-			var SlidesCount = {{ post.images.size | json}};
-		</script>
 		{% endfor %}
 	</div>
 	<div class="droite">
-		<a href="a-propos" id="fete">cap au pire :</a>
+		{% for post in site.tags.capaupire %}
+		<a href="a-propos" id="fete"> {{ post.excerpt }}</a>
+		{% endfor %}
 	</div>
 
 </div>

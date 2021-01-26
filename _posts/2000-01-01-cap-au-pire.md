@@ -2,8 +2,10 @@
 layout: posts
 title: 
 tag: capaupire
+excerpt_separator: <!--more-->
 ---
 cap au pire :<br>
+<!--more-->
 <!---⸺ [Site web pour Fol Film Festival][9] <sup>➶</sup> décembre 2020<br> -->
 ⸺ [Site web pour l'association Folle Béton][8] <sup>➶</sup> juillet 2020<br>
 ⸺ [Quarantype avec fonderie.download][7] <sup>➶</sup> avril 2020 <br>
