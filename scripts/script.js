@@ -76,7 +76,7 @@ function RandomColor() {
 		}
 	} else{
 		console.log("il est " + time + "h, " + "c'est la nuit");
-		document.documentElement.style.setProperty("--background-color", "#472c2a");
+		document.documentElement.style.setProperty("--background-color", "grey");
 		document.documentElement.style.setProperty("--font-color", "#ec79f8");
 		document.documentElement.style.setProperty("--selection", "green");
 		document.documentElement.style.setProperty("--shadow", "white");

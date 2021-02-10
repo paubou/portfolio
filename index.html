@@ -5,13 +5,34 @@ fulltitle: "paul bouigue est probablement votre pire étudiant"
 ---
 <div class="wrapper">
 	<div class="gauche" id="bienvenue">
-		<span>Pour arriver jusqu’au perron de la maison, il faut marcher sur un chemin de pierre presque entièrement recouvert par de l’herbe. La boîte aux lettres se situe au début du chemin, l’étiquette se détache à cause de la pluie et du temps. Par la fenêtre, on aperçoit une </span> <a href="a-propos" class="liencolore"> silhouette</a> <span> et on entend même la télévision chanter.</span>
+		<span>ᖘour arriver jusqu’au perron de la maison, il faut marcher sur un chemin de pierre presque entièrement recouvert par de l’herbe. La boîte aux lettres se situe au début du chemin, l’étiquette se détache à cause de la pluie et du temps. Par la fenêtre, on aperçoit une </span> <a href="a-propos" class="liencolore"> silhouette</a> <span> et on entend même la télévision chanter.</span>
 	</div>
 	<div class="milieu" id="images">
 
 		<img id="papillon" src="assets/tache.png" alt="paul bouigue bat des ailes"> 
 
+
+<!-- 		<script>
+			var postsNumber = [];
+			var postsTitle = [];
+			var postsImage = [];
+			{% for post in site.categories.accueil %}
+			postsNumber.push("{{ forloop.index }}");
+			postsTitle.push("{{ post.title }}");
+			{% for image in post.images %} 
+			postsImage.push("{{ image }}");
+			{% endfor %}
+			{% endfor %}
+			var r = postsNumber[Math.floor(Math.random() * postsNumber.length)];
+			console.log(r);
+
+			document.write('<p>'+ postsTitle[r] + '</p>');
+			document.write('<img src="'+ postsImage[r] +'" alt = "' + postsTitle + '"">');
+
+		</script> -->
+		
 		{% for post in site.categories.accueil %}
+
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				{% for image in post.images %} 
@@ -32,6 +53,6 @@ fulltitle: "paul bouigue est probablement votre pire étudiant"
 		{% for post in site.tags.capaupire %}
 		<a href="a-propos" id="fete"> {{ post.excerpt }}</a>
 		{% endfor %}
-	</div>
+	</div> 
 
 </div>

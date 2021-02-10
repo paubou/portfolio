@@ -9,7 +9,7 @@ layout: default
 		{% endfor %}
 		
 	</div>
-	
+
 	<div class="milieu" id="contact">
 		contact :<br>
 		<a href="mailto:{{site.mail}}">{{site.mail}}</a>
@@ -29,6 +29,7 @@ layout: default
 		<a id="e">e</a> 
 		<a id="f">f</a>
 		&nbsp;<br>
+
 	</div>
 
 	<div class="droite" id="liste">
@@ -40,13 +41,14 @@ layout: default
 		{{ post.content }}
 		{% endfor %}
 		<br>
+		<img id="clown" src="assets/foottit&chocolat.png" alt="paul bouigue bat des ailes"> 
+
 		{% for post in site.tags.ateliers %}
 		{{ post.content }}
 		{% endfor %}
+		
+
 	</div>
-
-
-
 </div>
 
 <div class="alphabet">

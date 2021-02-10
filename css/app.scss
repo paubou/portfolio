@@ -22,7 +22,7 @@ $font-color: rgb(165, 5, 183);
 $selection: #2d0103;
 
 :root{
-	--background-color: #ffd3cf;
+	--background-color: grey;
 	--font-color: rgb(165, 5, 18); /*rgb(165, 5, 183)*/
 	--selection: #2d0103;
 	--shadow: white;
@@ -94,6 +94,15 @@ img#papillon{
 	position: fixed;
 	width: 20%;
 	z-index: 100;
+}
+
+img#clown{
+	pointer-events: none;
+	position: fixed;
+	width: 15%;
+	z-index: 100;
+
+
 }
 
 i,
@@ -311,3 +320,4 @@ img{
 	color: black;
 	pointer-events: none;
 }
+
