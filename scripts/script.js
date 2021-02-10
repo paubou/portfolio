@@ -81,7 +81,6 @@ function RandomColor() {
 		document.documentElement.style.setProperty("--selection", "green");
 		document.documentElement.style.setProperty("--shadow", "white");
 		document.documentElement.style.setProperty("--alt-text-color", "white");
-		$("#contact.milieu").css({"mix-blend-mode": "exclusion"})
 
 		var colors = {
 			"white": true,
