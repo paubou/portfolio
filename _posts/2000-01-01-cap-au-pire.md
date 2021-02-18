@@ -6,7 +6,8 @@ excerpt_separator: <!--more-->
 ---
 cap au pire :<br>
 <!--more-->
-<!---⸺ [Site web pour Fol Film Festival][9] <sup>➶</sup> décembre 2020<br> -->
+⸺ [Reading Machines avec Tiger Dingsun][10] <sup>➶</sup> décembre 2020 - janvier 2021<br> 
+⸺ [Site web pour Fol Film Festival][9] <sup>➶</sup> décembre 2020<br> 
 ⸺ [Site web pour l'association Folle Béton][8] <sup>➶</sup> juillet 2020<br>
 ⸺ [Quarantype avec fonderie.download][7] <sup>➶</sup> avril 2020 <br>
 ⸺ [Publication Ficciones Typografika 1642][6] <sup>➶</sup> 2019 <br>
@@ -17,6 +18,7 @@ cap au pire :<br>
 ⸺ [It's Nice That : Sport 2 Racket][1] <sup>➶</sup> 2016 <br>
 
 
+[10]: https://tdingsun.github.io/paul/
 [9]: http://folfilmfestival.com
 [8]: http://follebeton.com/entree
 [7]: https://www.fonderie.download/quarantype.html

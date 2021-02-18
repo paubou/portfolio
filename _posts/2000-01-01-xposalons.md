@@ -5,7 +5,7 @@ tag: exposalons
 ---
 expositions et salons :<br>
 ⸺ [Carte blanche pour Folle Béton][1] <sup>➶</sup> octobre 2020<br>
-⸺ [Exposition dans le cadre du PAC Marseille][2] <sup>➶</sup> août 2020 <br>
+⸺ [La distance séparant l'œuf du sol - PAC Marseille][2] <sup>➶</sup> août 2020 <br>
 ⸺ [Fanzines! Festival][3] <sup>➶</sup> juin 2019 <br>
 ⸺ [C H A P E L L E - Salon de l’édition graphique][4] <sup>➶</sup> mai 2019 <br>
 ⸺ [Spin Off, Angoulême][5] <sup>➶</sup> janvier 2018 <br>
