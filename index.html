@@ -1,18 +1,16 @@
 ---
 layout: default
 title: ""
-fulltitle: "paul bouigue est probablement votre pire étudiant" 
+fulltitle: "paul bouigue est probablement votre pire étudiant"
 ---
+
 <div class="wrapper">
-	<div class="gauche" id="bienvenue">
-		<span>ᖘour arriver jusqu’au perron de la maison, il faut marcher sur un chemin de pierre presque entièrement recouvert par de l’herbe. La boîte aux lettres se situe au début du chemin, l’étiquette se détache à cause de la pluie et du temps. Par la fenêtre, on aperçoit une </span> <a href="a-propos" class="liencolore"> silhouette</a> <span> et on entend même la télévision chanter.</span>
-	</div>
-	<div class="milieu" id="images">
+  <div class="gauche" id="bienvenue">
+    {% for post in site.tags.bvn %} {{ post.content }} {% endfor %}
+  </div>
 
-		<img id="papillon" src="assets/var-img/tache.png" alt="paul bouigue bat des ailes"> 
-
-
-<!-- 		<script>
+  <div class="milieu" id="images">
+    <!-- 		<script>
 			var postsNumber = [];
 			var postsTitle = [];
 			var postsImage = [];
@@ -30,29 +28,35 @@ fulltitle: "paul bouigue est probablement votre pire étudiant"
 			document.write('<img src="'+ postsImage[r] +'" alt = "' + postsTitle + '"">');
 
 		</script> -->
-		
-		{% for post in site.categories.accueil %}
 
-		<div class="swiper-container">
-			<div class="swiper-wrapper">
-				{% for image in post.images %} 
-				<div class="swiper-slide"><img src="{{image}}" alt="{{post.title}}" ></div>
-				{% endfor %}
-			</div>
-			<div class="swiper-button-prev"></div>
-			<div class="swiper-button-next"></div>
-			<div class="swiper-pagination"></div>
-		</div>
-		<div class="description">
-			<div class="date">{{post.year}}</div>
-			<div class="texte"> {{post.content}}</div>
-		</div>
-		{% endfor %}
-	</div>
-	<div class="droite">
-		{% for post in site.tags.capaupire %}
-		<a href="a-propos" id="fete"> {{ post.excerpt }}</a>
-		{% endfor %}
-	</div> 
+    {% for post in site.categories.accueil %}
 
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% for image in post.images %}
+        <div class="swiper-slide">
+          <img src="{{image}}" alt="{{post.title}}" />
+        </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="description">
+      <div class="date">{{post.year}}</div>
+      <div class="texte">{{post.content}}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="droite">
+    {% for post in site.tags.capaupire %}
+    <a href="a-propos" id="fete"> {{ post.excerpt }}</a>
+    {% endfor %}
+    <img
+      id="papillon"
+      src="assets/var-img/tache.png"
+      alt="paul bouigue bat des ailes"
+    />
+  </div>
 </div>
