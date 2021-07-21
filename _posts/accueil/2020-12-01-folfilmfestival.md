@@ -4,11 +4,11 @@ title: Fol Film Festival
 category: accueil
 year: 2020
 images:
-- "/assets/FolFilmFestival/0.jpg"
-- "/assets/FolFilmFestival/folfilm.png"
+  - "/assets/FolFilmFestival/0.jpg"
+  - "/assets/FolFilmFestival/folfilm.png"
 ---
 
-⸺ Dérouler la longue bobine avec Timothée, site web pour [Fol Film Festival][1] pour [Yves Bartlett][2]
+⸺ Dérouler la longue bobine avec Timothée, site web pour [Fol Film Festival][1] pour [Yves Bartlett][2].
 
 [1]: https://www.folfilmfestival.com/
 [2]: https://yvesbartlett.com/

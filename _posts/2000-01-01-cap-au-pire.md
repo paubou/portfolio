@@ -1,13 +1,17 @@
 ---
 layout: posts
-title: 
+title:
 tag: capaupire
 excerpt_separator: <!--more-->
 ---
+
 cap au pire :<br>
+
 <!--more-->
-⸺ [Reading Machines avec Tiger Dingsun][10] <sup>➶</sup> décembre 2020 - janvier 2021<br> 
-⸺ [Site web pour Fol Film Festival][9] <sup>➶</sup> décembre 2020<br> 
+
+⸺ [Costumes, scénographie et accessoires pour Copi Cabaret Tour, d'après la pièce La tour de la Défense de Copi - mise en scène de Garance Robert de Massy][11] <sup>➶</sup> mai 2021 - juin 2021<br>
+⸺ [Reading Machines avec Tiger Dingsun][10] <sup>➶</sup> décembre 2020 - janvier 2021<br>
+⸺ [Site web pour Fol Film Festival][9] <sup>➶</sup> décembre 2020<br>
 ⸺ [Site web pour l'association Folle Béton][8] <sup>➶</sup> juillet 2020<br>
 ⸺ [Quarantype avec fonderie.download][7] <sup>➶</sup> avril 2020 <br>
 ⸺ [Publication Ficciones Typografika 1642][6] <sup>➶</sup> 2019 <br>
@@ -17,7 +21,7 @@ cap au pire :<br>
 ⸺ [École nationale supérieure des Arts Décoratifs][2], Paris, 2017 - 2022 <br>
 ⸺ [It's Nice That : Sport 2 Racket][1] <sup>➶</sup> 2016 <br>
 
-
+[11]: https://www.raynauddelage.com/-/galleries/ecoles/cnsad/copi-cabaret-tour-garance-robert-de-massy#media_b36964b6-70d3-4bba-8138-c66e0fd3a7de
 [10]: https://tdingsun.github.io/paul/
 [9]: http://folfilmfestival.com
 [8]: http://follebeton.com/entree
