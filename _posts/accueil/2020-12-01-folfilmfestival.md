@@ -6,6 +6,7 @@ year: 2020
 images:
   - "/assets/FolFilmFestival/0.jpg"
   - "/assets/FolFilmFestival/folfilm.png"
+  - "/assets/FolFilmFestival/site.gif"
 ---
 
 ⸺ Dérouler la longue bobine avec Timothée, site web pour [Fol Film Festival][1] pour [Yves Bartlett][2].
