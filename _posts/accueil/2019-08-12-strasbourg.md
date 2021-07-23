@@ -9,6 +9,6 @@ images:
 - "/assets/divers.jpg"
 ---
 
-⸺ De Karlsruhe à Strasbourg, workshop à la HFG avec [Club Lab][1]
+⸺ De Karlsruhe à Strasbourg, workshop à la HFG avec [Club Lab][1].
 
 [1]: https://potagerclublab.bigcartel.com/
