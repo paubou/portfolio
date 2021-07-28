@@ -21,4 +21,6 @@ images:
   - "/assets/La Bresse/Fresque.jpg"
 ---
 
-⸺ La Bresse, le chemin du Tremplin ⸺ Pendant 3 mois, avec Timothée, nous avons peint, photographié et fait s'envoler des drapeaux à travers les montagnes des Vosges.
+⸺ La Bresse, le chemin du Tremplin ⸺ Pendant 3 mois, avec [Timothée][1], nous avons peint, photographié et fait s'envoler des drapeaux à travers les montagnes des Vosges.
+
+[1]: https://www.instagram.com/petitmot__/

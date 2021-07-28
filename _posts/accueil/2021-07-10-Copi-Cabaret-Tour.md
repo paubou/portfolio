@@ -27,3 +27,5 @@ images:
 ---
 
 ⸺ Costumes, scénographie et accessoires avec Marius Astruc et Lucie Duranteau pour la pièce _Copi Cabaret Tour_, Mise en scène de Garance Robert de Massy
+
+[1]: https://www.instagram.com/marius_astruc/
