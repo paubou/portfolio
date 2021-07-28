@@ -312,8 +312,8 @@ nav > div {
 }
 
 .swiper-container {
+  image-rendering: -webkit-optimize-contrast;
   width: 100%;
-  height: 100%;
 }
 
 .swiper-slide {
@@ -325,7 +325,7 @@ nav > div {
   position: absolute;
   top: 0 !important;
   height: 100% !important;
-  width: 45% !important;
+  width: 35% !important;
   opacity: 0;
   height: 100%;
 }

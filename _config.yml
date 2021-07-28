@@ -14,10 +14,10 @@ plugins:
   - jekyll-seo-tag
 
 sitemap:
-  lastmod: 2021-01-05
+  lastmod: 2021-01-07
   priority: 0.7
-  changefreq: 'monthly'
-  exclude: 'yes'
+  changefreq: "monthly"
+  exclude: "yes"
 
 timezone: Europe/Paris
 
