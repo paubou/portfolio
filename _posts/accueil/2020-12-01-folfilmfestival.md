@@ -3,6 +3,7 @@ layout: posts
 title: Fol Film Festival
 category: accueil
 year: 2020
+color: blank
 images:
   - "/assets/FolFilmFestival/0.jpg"
   - "/assets/FolFilmFestival/folfilm.png"

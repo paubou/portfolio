@@ -3,6 +3,7 @@ layout: posts
 title: Peintures, drapeaux
 category: accueil
 year: 2020
+color: 698866
 images:
   - "/assets/La Bresse/pres.jpg"
   - "/assets/La Bresse/1.jpg"
