@@ -4,6 +4,7 @@ layout: posts
 title: Copi Cabaret Tour
 category: accueil
 year: 2021
+color:
 images:
 - "/assets/Copi/Arlequin-red.jpg"
 - "/assets/Copi/Ciel-red.jpg"
