@@ -13,13 +13,19 @@ cap au pire :<br>
 ⸺ [Reading Machines avec Tiger Dingsun][10] <sup>➶</sup> décembre 2020 - janvier 2021<br>
 ⸺ [Site web pour Fol Film Festival][9] <sup>➶</sup> décembre 2020<br>
 ⸺ [Site web pour l'association Folle Béton][8] <sup>➶</sup> juillet 2020<br>
-⸺ [Quarantype avec fonderie.download][7] <sup>➶</sup> avril 2020 <br>
+
+<!-- ⸺ [Quarantype avec fonderie.download][7] <sup>➶</sup> avril 2020 <br> -->
+
 ⸺ [Publication Ficciones Typografika 1642][6] <sup>➶</sup> 2019 <br>
-⸺ [Interview pour form][5] <sup>➶</sup> 2018 <br>
-⸺ [Participation à la typographie Saint-Jean][4] <sup>➶</sup> 2017 <br>
-⸺ [It's Nice That : Le mois d'août][3] <sup>➶</sup> 2017 <br>
+
+<!-- ⸺ [Interview pour form][5] <sup>➶</sup> 2018 <br>
+⸺ [Participation à la typographie Saint-Jean][4] <sup>➶</sup> 2017 <br> -->
+
+<!-- ⸺ [It's Nice That : Le mois d'août][3] <sup>➶</sup> 2017 <br> -->
+
 ⸺ [École nationale supérieure des Arts Décoratifs][2], Paris, 2017 - 2022 <br>
-⸺ [It's Nice That : Sport 2 Racket][1] <sup>➶</sup> 2016 <br>
+
+<!-- ⸺ [It's Nice That : Sport 2 Racket][1] <sup>➶</sup> 2016 <br> -->
 
 [11]: https://www.raynauddelage.com/-/galleries/ecoles/cnsad/copi-cabaret-tour-garance-robert-de-massy#media_b36964b6-70d3-4bba-8138-c66e0fd3a7de
 [10]: https://tdingsun.github.io/paul/
