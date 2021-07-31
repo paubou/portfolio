@@ -56,9 +56,6 @@ html {
 }
 
 body {
-  -webkit-transition: background-color 300ms linear;
-  -ms-transition: background-color 300ms linear;
-  transition: background-color 300ms linear;
   background-color: var(--background-color);
   padding: 0rem;
   word-spacing: -0.1rem;

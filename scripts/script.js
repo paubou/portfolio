@@ -10,6 +10,7 @@ function nextLetter(ch) {
 }
 
 $(document).ready(function () {
+  //open in a new tab markdown links
   $(document.links)
     .filter(function () {
       return this.hostname != window.location.hostname;
@@ -20,7 +21,7 @@ $(document).ready(function () {
     loop: true,
     slidesPerView: "auto",
     spaceBetween: 0,
-    speed: 00,
+    speed: 300,
     touchRatio: 0,
     autoHeight: true,
 

@@ -10,9 +10,28 @@ fulltitle: "paul bouigue est probablement votre pire étudiant"
   </div>
 
   <div class="milieu" id="images">
+    <!-- 		<script>
+			var postsNumber = [];
+			var postsTitle = [];
+			var postsImage = [];
+			{% for post in site.categories.accueil %}
+			postsNumber.push("{{ forloop.index }}");
+			postsTitle.push("{{ post.title }}");
+			{% for image in post.images %} 
+			postsImage.push("{{ image }}");
+			{% endfor %}
+			{% endfor %}
+			var r = postsNumber[Math.floor(Math.random() * postsNumber.length)];
+			console.log(r);
+
+			document.write('<p>'+ postsTitle[r] + '</p>');
+			document.write('<img src="'+ postsImage[r] +'" alt = "' + postsTitle + '"">');
+
+		</script> -->
+
     {% for post in site.categories.accueil %}
 
-    <div class="swiper-container" id="{{post.color}}">
+    <div class="swiper-container">
       <div class="swiper-wrapper">
         {% for image in post.images %}
         <div class="swiper-slide">
