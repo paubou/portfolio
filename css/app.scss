@@ -323,6 +323,13 @@ nav > div {
   text-align: center;
 }
 
+.swiper-wrapper {
+  height: 100% !important;
+}
+
+.swiper-lazy-preloader {
+  display: none;
+}
 .swiper-button-next,
 .swiper-button-prev {
   position: absolute;
