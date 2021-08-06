@@ -24,7 +24,7 @@ images:
 - "/assets/Copi/Pile 2-red.jpg"
 - "/assets/Copi/Pile 3-red.jpg"
 - "/assets/Copi/Pile 4-red.jpg"
-- "/assets/Copi/Pile 5-red.jpg"
+- "/assets/Copi/Pile 5-rered.jpg"
 ---
 
 ⸺ Costumes, scénographie et accessoires avec Marius Astruc et Lucie Duranteau pour la pièce _Copi Cabaret Tour_, Mise en scène de Garance Robert de Massy
