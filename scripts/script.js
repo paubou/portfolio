@@ -24,13 +24,6 @@ $(document).ready(function () {
     speed: 300,
     touchRatio: 0,
     autoHeight: true,
-    preloadImages: false,
-    // Enable lazy loading
-    lazy: true,
-    pagination: {
-      el: ".swiper-pagination",
-      type: "fraction",
-    },
 
     navigation: {
       nextEl: ".swiper-button-next",
