@@ -22,8 +22,8 @@ $(document).ready(function () {
     slidesPerView: "auto",
     spaceBetween: 0,
     speed: 300,
-    touchRatio: 0,
     autoHeight: true,
+    allowTouchMove: true,
 
     navigation: {
       nextEl: ".swiper-button-next",
