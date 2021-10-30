@@ -34,6 +34,12 @@ $(document).ready(function () {
       enabled: true,
       onlyInViewport: true,
     },
+    mousewheel: {
+      invert: false,
+      forceToAxis: true,
+      sensitivity: 4,
+      releaseOnEdges: true,
+    },
   });
 
   $(
