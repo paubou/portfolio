@@ -23,4 +23,4 @@ images:
 ⸺ Identité de 6 formes découpées pour l'exposition _Faut que je vous raconte !_ à la Maison Fraternelle, avec [Marius Astruc][1] et quelques [lapins bleus][2].
 
 [1]: https://www.instagram.com/marius_astruc/
-[2]: https://www.youtube.com/watch?v=X6lXZBT749w
+[2]: https://www.youtube.com/watch?v=F_HdzNHBCo4
