@@ -1,7 +1,7 @@
 ---
 #prettier-ignore
 layout: posts
-title: Copi Cabaret Tour
+title: Faut que je vous raconte !
 category: accueil
 year: 2021
 color: blank
