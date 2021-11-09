@@ -117,10 +117,13 @@ nav {
   font-family: $font-family;
   transform: skew(0) rotate(0);
   top: 0.5rem;
-  padding: 0 0.5rem 0 0rem;
-  z-index: 100;
-  filter: drop-shadow(0 0 0.2rem var(--shadow))
-    drop-shadow(0 0 0.5rem var(--shadow));
+  padding: 0 2rem 0 0rem;
+  z-index: 0;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  position: absolute;
+  // filter: drop-shadow(0 0 0.2rem var(--shadow))
+  //   drop-shadow(0 0 0.5rem var(--shadow));
 }
 
 .milieu {
@@ -169,8 +172,9 @@ img#papillon {
   grid-gap: 0.5rem;
   grid-auto-rows: minmax(auto, auto);
   padding-bottom: 0.5rem;
-  font-size: 1rem;
-  line-height: 1rem;
+  font-family: serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 .date {
