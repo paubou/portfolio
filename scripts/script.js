@@ -17,7 +17,7 @@ $(document).ready(function () {
     })
     .attr("target", "_blank");
 
-  var mySwiper = new Swiper(".swiper-container", {
+  var mySwiper = new Swiper(".swiper", {
     loop: true,
     slidesPerView: "auto",
     spaceBetween: 0,
@@ -34,6 +34,7 @@ $(document).ready(function () {
       enabled: true,
       onlyInViewport: true,
     },
+
     mousewheel: {
       invert: false,
       forceToAxis: true,
