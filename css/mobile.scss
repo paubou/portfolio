@@ -104,6 +104,7 @@ nav {
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 1.9rem;
   grid-auto-rows: minmax(100px, auto);
+  
 }
 
 .gauche {
@@ -117,11 +118,11 @@ nav {
   font-family: $font-family;
   transform: skew(0) rotate(0);
   top: 0.5rem;
-  padding: 0 2rem 0 0rem;
+  padding: 0 0rem 0 0rem;
   z-index: 0;
   font-size: 1.5rem;
   line-height: 1.5rem;
-  position: absolute;
+  position: relative;
   // filter: drop-shadow(0 0 0.2rem var(--shadow))
   //   drop-shadow(0 0 0.5rem var(--shadow));
 }
