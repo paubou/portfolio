@@ -7,7 +7,7 @@ year: 2021
 color: blank
 images:
 - "/assets/Exemplaire/10.jpg"
-- "/assets/Exemplaire/8.jpg"
+# - "/assets/Exemplaire/8.jpg"
 - "/assets/Exemplaire/1.jpg"
 - "/assets/Exemplaire/2.jpg"
 - "/assets/Exemplaire/26.jpg"
