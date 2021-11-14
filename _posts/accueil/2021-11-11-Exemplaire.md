@@ -16,7 +16,6 @@ images:
 - "/assets/Exemplaire/11.jpg"
 - "/assets/Exemplaire/13.jpg"
 - "/assets/Exemplaire/14.jpg"
-- "/assets/Exemplaire/2.jpg"
 - "/assets/Exemplaire/3.jpg"
 - "/assets/Exemplaire/4.jpg"
 - "/assets/Exemplaire/5.jpg"
