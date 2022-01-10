@@ -6,7 +6,7 @@ category: accueil
 year: 2021
 color: blank
 images:
-- "/assets/Summer School/P8190058.png"
+- "/assets/Summer School/P8190058.jpg"
 - "/assets/Summer School/ss21_18.jpg"
 - "/assets/Summer School/ss21_36.jpg"
 - "/assets/Summer School/ss21_32.jpg"
