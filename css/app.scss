@@ -317,7 +317,13 @@ nav > div {
 .swiper-container {
   image-rendering: -webkit-optimize-contrast;
   width: 100%;
+
 }
+
+.swiper-pointer-events {
+  touch-action:pan-y;
+  cursor: grabbing;
+ }
 
 .swiper-slide {
   text-align: center;
@@ -332,12 +338,16 @@ nav > div {
 }
 .swiper-button-next,
 .swiper-button-prev {
+  cursor: e-resize;
   position: absolute;
   top: 0 !important;
   height: 100% !important;
   width: 15% !important;
   opacity: 0;
   height: 100%;
+}
+.swiper-button-prev {
+  cursor: w-resize;
 }
 .swiper-button-next::after,
 .swiper-button-prev::after {
