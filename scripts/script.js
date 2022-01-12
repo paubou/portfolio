@@ -18,15 +18,13 @@ $(document).ready(function () {
     .attr("target", "_blank");
 
   var mySwiper = new Swiper(".swiper", {
-    lazy: {
-      //  tell swiper to load images before they appear
-      loadPrevNext: true,
-      // amount of images to load
-      loadPrevNextAmount: 2,
-    },
+    // Enable lazy loading
+    lazy: true,
     
     loop: true,
     slidesPerView: "auto",
+    watchSlidesProgress: true,
+    preloadImages:false,
     spaceBetween: 0,
     speed: 300,
     autoHeight: true,
