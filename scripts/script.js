@@ -20,7 +20,6 @@ $(document).ready(function () {
   var mySwiper = new Swiper(".swiper", {
     // Enable lazy loading
     lazy: true,
-    
     loop: true,
     slidesPerView: "auto",
     watchSlidesProgress: true,
@@ -43,8 +42,9 @@ $(document).ready(function () {
     mousewheel: {
       invert: false,
       forceToAxis: true,
-      sensitivity: 4,
-      releaseOnEdges: true,
+      sensitivity: 500,
+      thresholdDelta: 10,
+
     },
   });
 

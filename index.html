@@ -35,7 +35,7 @@ fulltitle: "paul bouigue est probablement votre pire étudiant"
       <div class="swiper-wrapper">
         {% for image in post.images %}
         <div class="swiper-slide">
-          <img class="swiper-lazy" src="{{image}}" alt="{{post.title}}" />
+          <img class="swiper-lazy" data-src="{{image}}" alt="{{post.title}}" />
           <div class="swiper-lazy-preloader"></div>
         </div>
         {% endfor %}

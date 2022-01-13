@@ -220,6 +220,7 @@ nav > div {
   grid-column: 5 / 11;
   grid-row: 1;
   padding: 0.5rem;
+  width: 100%;
 }
 
 .milieu#contact {
@@ -327,6 +328,8 @@ nav > div {
 
 .swiper-slide {
   text-align: center;
+  width: 100%;
+  position: relative;
 }
 
 .swiper-wrapper {
