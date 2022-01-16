@@ -131,12 +131,21 @@ nav {
   grid-column: 1 / 1;
   grid-row: 2;
   padding: 0.5rem;
+  width: 94vw;
+
 }
 
 .milieu#contact {
   grid-column: 1 / 1;
   grid-row: 2;
   text-align: center;
+}
+
+.milieu#images {
+  grid-column: 1 / 1;
+  grid-row: 2;
+  text-align: center;
+  width: 94vw;
 }
 
 .droite {

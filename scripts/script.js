@@ -23,9 +23,9 @@ $(document).ready(function () {
     loop: true,
     slidesPerView: "auto",
     watchSlidesProgress: true,
-    preloadImages:false,
+    preloadImages:true,
     spaceBetween: 0,
-    speed: 300,
+    speed: 400,
     autoHeight: true,
     allowTouchMove: true,
 
