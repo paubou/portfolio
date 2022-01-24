@@ -18,16 +18,19 @@ $(document).ready(function () {
     .attr("target", "_blank");
 
   var mySwiper = new Swiper(".swiper", {
-    // Enable lazy loading
     lazy: true,
+    lazy: {
+      loadPrevNext: true,
+      loadOnTransitionStart: true,
+    },
     loop: true,
     slidesPerView: "auto",
     watchSlidesProgress: true,
-    preloadImages:true,
     spaceBetween: 0,
     speed: 400,
     autoHeight: true,
     allowTouchMove: true,
+
 
     navigation: {
       nextEl: ".swiper-button-next",
