@@ -31,7 +31,7 @@ exclude: 'yes'
     {% if post.sitemap.priority %}
     <priority>{{ post.sitemap.priority }}</priority>
     {% else %}
-    <priority>0.5</priority>
+    <priority>1</priority>
     {% endif %}
   </url>
   {% endunless %}
@@ -50,7 +50,7 @@ exclude: 'yes'
     {% if page.sitemap.changefreq %}
     <changefreq>{{ page.sitemap.changefreq }}</changefreq>
     {% else %}
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     {% endif %}
     {% if page.sitemap.priority %}
     <priority>{{ page.sitemap.priority }}</priority>
