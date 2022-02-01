@@ -9,11 +9,10 @@ sitemap:
   {% unless post.published == false %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
-    
     {% for image in post.images %}
     <image:image> 
       <image:loc>{{ site.url }}{{ image }}</image:loc>
-      <image:caption>{{ post.title }}</image:caption>
+      <image:caption>Paul Bouigue - {{ post.title }}</image:caption>
     </image:image>
     {% endfor %}
     {% if post.sitemap.lastmod %}
