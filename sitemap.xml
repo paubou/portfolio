@@ -13,6 +13,8 @@ sitemap:
     <image:image> 
       <image:loc>{{ site.url }}{{ image }}</image:loc>
       <image:caption>Paul Bouigue - {{ post.title }}</image:caption>
+      <image:geo_location>Paris, France</image:geo_location>
+       <image:title>Paul Bouigue - {{ post.title }}</image:title>
     </image:image>
     {% endfor %}
     {% if post.sitemap.lastmod %}
