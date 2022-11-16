@@ -1,0 +1,9 @@
+fields:
+  tags:
+    label: Tags
+    type: tags
+    options:
+      - value: study/design
+        text: Design
+      - value: study/architecture
+        text: Architecture

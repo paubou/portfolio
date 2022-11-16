@@ -1,0 +1,29 @@
+sections:
+  content:
+    type: fields
+    fields:
+      category:
+        label: Categorie
+        type: select
+        options:
+          type: query
+          query: site.structure.toStructure
+          text: "{{ item.action }}"
+          value: "{{ item.action }}"
+      ailleurs:
+        label: "Other pages with category {{ page.category }}"
+        type: info
+        text: "{< page.getListOfSiblingsWithCategory() >}"
+
+      description:
+        type: textarea
+        label: Description
+        help: "pas trop long, sera affichée si l'image du projet n'a pas de description"
+  images:
+    type: files
+    layout: cards
+
+    size: tiny
+    text: "{{file.caption}}"
+    image:
+      back: black
