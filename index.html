@@ -1,0 +1,62 @@
+---
+layout: default
+title: ""
+fulltitle: "paul bouigue est probablement votre pire étudiant"
+---
+
+<div class="wrapper">
+  <div class="gauche" id="bienvenue">
+    {% for post in site.tags.bvn %} {{ post.content }} {% endfor %}
+  </div>
+
+  <div class="milieu" id="images">
+    <!-- 		<script>
+			var postsNumber = [];
+			var postsTitle = [];
+			var postsImage = [];
+			{% for post in site.categories.accueil %}
+			postsNumber.push("{{ forloop.index }}");
+			postsTitle.push("{{ post.title }}");
+			{% for image in post.images %} 
+			postsImage.push("{{ image }}");
+			{% endfor %}
+			{% endfor %}
+			var r = postsNumber[Math.floor(Math.random() * postsNumber.length)];
+			console.log(r);
+
+			document.write('<p>'+ postsTitle[r] + '</p>');
+			document.write('<img src="'+ postsImage[r] +'" alt = "' + postsTitle + '"">');
+
+		</script> -->
+
+    {% for post in site.categories.accueil %}
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        {% for image in post.images %}
+        <div class="swiper-slide">
+          <img class="swiper-lazy" data-src="{{image}}" alt="" />
+        </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="description">
+      <div class="date">{{post.year}}</div>
+      <div class="texte">{{post.content}}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="droite">
+    {% for post in site.tags.capaupire %}
+    <a href="a-propos" id="fete"> {{ post.excerpt }}</a>
+    {% endfor %}
+    <img
+      id="papillon"
+      src="assets/var-img/tache.png"
+      alt="paul bouigue bat des ailes"
+    />
+  </div>
+</div>

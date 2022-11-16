@@ -1,0 +1,24 @@
+# Site settings
+title: 𝓹𝓪𝓾𝓵 𝓫𝓸𝓾𝓲𝓰𝓾𝓮
+tagline: "paul bouigue est probablement votre pire étudiant"
+url: "https://pual.cool"
+author: "paul bouigue"
+
+# Social
+instagram: https://instagram.com/smexypual
+vimeo: https://vimeo.com/pbouigue
+mail: paul.bouigue@gmail.com
+
+# plugins
+plugins:
+  - jekyll-seo-tag
+
+sitemap:
+  lastmod: 2021-01-07
+  priority: 0.7
+  changefreq: "monthly"
+  exclude: "yes"
+
+timezone: Europe/Paris
+
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
