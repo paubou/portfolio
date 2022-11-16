@@ -1,0 +1,12 @@
+type: pages
+label: Projets
+layout: cards
+parent: kirby.page("projets")
+template: projet
+template: projet
+size: tiny
+text: "*{{ page.title }}* {{ page.category }}"
+# image:
+#   cover: true
+#   ratio: 5/2
+#   query: page.hero.tofile

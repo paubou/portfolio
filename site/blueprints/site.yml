@@ -1,0 +1,26 @@
+title: Site
+
+sections:
+  content:
+    type: fields
+    fields:
+      structure:
+        label: Structure
+        type: structure
+        fields:
+          action:
+            label: Action
+            type: text
+          projects:
+            label: Projects
+            type: query
+            query: site.find('title of the action in that row')
+  project: sections/projets
+  pages:
+    type: pages
+    template: about
+  welcome:
+    type: files
+    limit: 1
+    layout: cards
+    size: huge

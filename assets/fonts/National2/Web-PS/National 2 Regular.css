@@ -1,9 +1,0 @@
-/* Webfont: National2-Regular */@font-face {
-    font-family: 'National2';
-    src: url('National 2 Regular.woff2') format('woff2'), /* Modern Browsers */
-         url('National 2 Regular.otf') format('opentype'); /* Safari, Android, iOS */
-             font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-

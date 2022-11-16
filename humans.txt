@@ -1,8 +1,0 @@
-# humanstxt.org/
-
-    pb -- un peu de feuilles -- d'automne
-
-# fabriqué avec
-
-    HTML5, CSS3
-

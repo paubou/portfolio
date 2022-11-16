@@ -1,0 +1,8 @@
+title: Default Page
+
+sections:
+  pages:
+    type: pages
+    template: projet
+  files:
+    type: files
